@@ -1,5 +1,5 @@
 {
-  "name": "@vreden/meta",
+  "name": "@zass/baileys",
   "type": "module",
   "version": "9.2.0",
   "description": "Baileys is a lightweight JavaScript library for interacting with the WhatsApp Web API using WebSocket.",
@@ -11,7 +11,7 @@
     "meta",
     "whatsapp",
     "whatsapp-bot",
-    "vreden"
+    "zassbtz"
   ],
   "homepage": "https://github.com/WhiskeySockets/Baileys/",
   "repository": {
