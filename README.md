@@ -43,10 +43,7 @@
 
 <br>
 
-## 🔥 Updated New (23 September 2025)
-- ✨ AI Logo Message
-- 🚀 Logger Buffer Clear
-- 🗄️ makeInMemoryStore Fixed
+## 🔥 Updated New (08 Oktober 2025)
 - 🍟 Convert LID Mentions to JID
 - 🤖 Convert Sender LID to JID
 - 👥 Convert Group ID LID to JID
@@ -64,14 +61,14 @@ Tujuan utama dari proyek ini adalah untuk **memudahkan pengguna serta memperbaik
 Saat ini proyek masih dalam tahap **Beta**, sehingga kemungkinan masih terdapat bug atau kendala tak terduga saat proses instalasi maupun eksekusi.  
 Jika Anda mengalami masalah yang berlanjut, silakan hubungi kami melalui kontak yang telah tersedia.  
 
-Terimakasih, salam hangat, vreden!
+Terimakasih, salam hangat, zass!
 <br>
 
 ## ⚡ Contact Admin
-- [WhatsApp](https://wa.me/6285643115199)
-- [Channel](https://whatsapp.com/channel/0029Vaf0HPMLdQeZsp3XRp2T)
-- [Rest API](https://api.vreden.my.id)
-- [Website Shop](https://www.rumahotp.com)
+- [Site](https://zass.cloud)
+- [Channel](https://zass.cloud/wa/channel/info)
+- [Script Gratis](https://neolabsofficial.my.id)
+- [Pterodactyl Murah](https://pteroku-desu.zass.cloud)
 
 <br>
 
@@ -94,9 +91,9 @@ All contributions will be reviewed before merging.
 
 ## 📥 Installation
 ```bash
-npm install @vreden/meta
+npm install @zassxd/baileys
 # or
-yarn add @vreden/meta
+yarn add @zassxd/baileys
 ```
 
 <br>
@@ -106,7 +103,7 @@ yarn add @vreden/meta
 const {
   default: makeWASocket,
   useMultiFileAuthState,
-} = require('@vreden/meta');
+} = require('@zassxd/baileys');
 
 const {
   state,
@@ -238,7 +235,7 @@ await sock.sendMessage(jid, {
 
 ```javascript
 // With Quoted Reply
-await sock.sendMessage(jid, { text: 'Hello!' }, { quoted: message });
+await sock.sendMessage(jid, { text: 'Hello Shiroko!' }, { quoted: message });
 ```
 </details>
 
@@ -1011,7 +1008,7 @@ await sock.sendMessage(jid, {
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/n3wqck.png" alt="Vreden Quick Reply" width="300">
+        <img src="https://files.catbox.moe/n3wqck.png" alt="Shiroko Quick Reply" width="300">
       </td>
       <td>
         quick_reply
@@ -1041,7 +1038,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/0bbxj0.png" alt="Vreden CTA URL" width="300">
+        <img src="https://files.catbox.moe/0bbxj0.png" alt="Shiroko CTA URL" width="300">
       </td>
       <td>
         cta_url
@@ -1072,7 +1069,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/8vgfcw.png" alt="Vreden CTA Copy" width="300">
+        <img src="https://files.catbox.moe/8vgfcw.png" alt="Shiroko CTA Copy" width="300">
       </td>
       <td>
         cta_copy
@@ -1102,7 +1099,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/ftvx6v.png" alt="Vreden CTA Call" width="300">
+        <img src="https://files.catbox.moe/ftvx6v.png" alt="Shiroko CTA Call" width="300">
       </td>
       <td>
         cta_call
@@ -1132,7 +1129,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/hpswwj.png" alt="Vreden CTA Catalog" width="300">
+        <img src="https://files.catbox.moe/hpswwj.png" alt="Shiroko CTA Catalog" width="300">
       </td>
       <td>
         cta_catalog
@@ -1161,7 +1158,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/buia02.png" alt="Vreden CTA Reminder" width="300">
+        <img src="https://files.catbox.moe/buia02.png" alt="Shiroko CTA Reminder" width="300">
       </td>
       <td>
         cta_reminder
@@ -1190,7 +1187,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/mhhqrc.png" alt="Vreden CTA Reminder" width="300">
+        <img src="https://files.catbox.moe/mhhqrc.png" alt="Shiroko CTA Reminder" width="300">
       </td>
       <td>
         cta_cancel_reminder
@@ -1219,7 +1216,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/gktote.png" alt="Vreden Address Message" width="300">
+        <img src="https://files.catbox.moe/gktote.png" alt="Shiroko Address Message" width="300">
       </td>
       <td>
         address_message
@@ -1248,7 +1245,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/amzsvv.png" alt="Vreden Send Location" width="300">
+        <img src="https://files.catbox.moe/amzsvv.png" alt="Shiroko Send Location" width="300">
       </td>
       <td>
         send_location
@@ -1277,7 +1274,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/hpswwj.png" alt="Vreden Open Web Views" width="300">
+        <img src="https://files.catbox.moe/hpswwj.png" alt="Shiroko Open Web Views" width="300">
       </td>
       <td>
         open_webview
@@ -1310,7 +1307,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/1zv71s.png" alt="Vreden Multi Product Message" width="300">
+        <img src="https://files.catbox.moe/1zv71s.png" alt="Shiroko Multi Product Message" width="300">
       </td>
       <td>
         mpm
@@ -1339,7 +1336,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/b41mfc.png" alt="Vreden Transaction Details" width="300">
+        <img src="https://files.catbox.moe/b41mfc.png" alt="Shiroko Transaction Details" width="300">
       </td>
       <td>
         wa_payment_transaction_details
@@ -1368,7 +1365,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/krp9fv.png" alt="Vreden Greeting Message" width="300">
+        <img src="https://files.catbox.moe/krp9fv.png" alt="Shiroko Greeting Message" width="300">
       </td>
       <td>
         automated_greeting_message_view_catalog
@@ -1398,7 +1395,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/vuqvmx.png" alt="Vreden Form Message" width="300">
+        <img src="https://files.catbox.moe/vuqvmx.png" alt="Shiroko Form Message" width="300">
       </td>
       <td>
         galaxy_message
@@ -1446,7 +1443,7 @@ const native_flow_button = [{
   <tbody>
     <tr>
       <td>
-        <img src="https://files.catbox.moe/zg4vs9.png" alt="Vreden Single Select" width="300">
+        <img src="https://files.catbox.moe/zg4vs9.png" alt="Shiroko Single Select" width="300">
       </td>
       <td>
         single_select
